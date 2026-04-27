@@ -1,0 +1,38 @@
+/* UNEB OFFICIAL BRANDING */
+:root {
+    --uneb-navy: #003366 !important; 
+    --uneb-gold: #FFCC00 !important;
+}
+
+body {
+    background-color: #f4f7f9;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+/* Force Navigation Colors */
+.nav-links {
+    display: flex;
+    list-style: none;
+    background-color: var(--uneb-navy) !important;
+    padding: 20px 40px;
+    margin: 0px;
+}
+
+.nav-links li a {
+    color: white !important;
+    text-decoration: none !important;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.nav-links li a:hover {
+    color: var(--uneb-gold) !important;
+}
+
+/* Table Header - Forced Navy */
+th {
+    background-color: var(--uneb-navy) !important;
+    color: white !important;
+}
