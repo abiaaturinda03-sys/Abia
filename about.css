@@ -1,0 +1,85 @@
+/* About Page Specifics */
+.about-hero {
+    background-color: var(--primary-blue);
+    padding: 100px 0px;
+    text-align: center;
+    color: var(--white);
+}
+
+.about-hero h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.about-content {
+    padding: 80px 0px;
+}
+
+.content-box {
+    text-align: center;
+    max-width: 800px;
+    margin: 0px auto 60px auto;
+}
+
+.content-box h2 {
+    color: var(--brand-green);
+    font-size: 32px;
+}
+
+.content-box p {
+    line-height: 28px;
+    font-size: 18px;
+    color: var(--text-main);
+}
+
+.mission-vision-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.m-v-box {
+    background-color: var(--bg-light);
+    padding: 40px;
+    flex: 1;
+    border-left: 5px solid var(--brand-green);
+}
+
+.m-v-box h3 {
+    color: var(--primary-blue);
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+/* Leadership Section */
+.leadership {
+    background-color: #ffffff;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.profile-circle {
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-blue);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0px auto 20px auto;
+}
+
+.director-profile h3 {
+    margin: 10px 0px 5px 0px;
+    color: var(--dark-blue);
+}
+
+.director-profile span {
+    font-weight: bold;
+    color: var(--brand-green);
+    display: block;
+    margin-bottom: 15px;
+}
